@@ -1,11 +1,15 @@
+import { Fragment } from "react";
 import { HashRouter } from "react-router-dom";
-import './App.css';
+
+import { Menu } from "./components/Menu";
 
 function App() {
   return (
-    <HashRouter>
-      
-    </HashRouter>
+    <Fragment>
+      <HashRouter>
+        <Menu />
+      </HashRouter>
+    </Fragment>
   );
 }
 
