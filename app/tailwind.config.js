@@ -6,9 +6,10 @@ module.exports = {
       xs: '100%',
       sm: '120%',
       md: '130%',
-      lg: '140%',
-      xl: '150%',
-      xxl: '160%',
+      lg: '150%',
+      xl: '180%',
+      xxl: '240%',
+      masive: '520%',
     },
     screens: {
       xs: '320px',
